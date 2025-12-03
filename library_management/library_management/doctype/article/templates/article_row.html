@@ -1,0 +1,14 @@
+<div>
+	<a href="/{{ doc.route |e }}">{{ (doc.title or doc.name) |e }}</a>
+
+<br>
+![{{ doc.name }}]({{ doc.image }})
+<br>
+
+[{{ doc.name }}]({{ doc.route }})
+<br>
+By {{ doc.author }}
+
+</div>
+<br>
+<!-- this is a sample default list template -->
